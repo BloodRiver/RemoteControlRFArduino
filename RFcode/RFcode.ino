@@ -1,4 +1,9 @@
 /*
+
+  Radio Frequency Controller Code for Arduino (Remastered)
+          By Sajeed Ahmed Galib Arnob
+      Author of Original Code: Sheikh Saif Simran
+
   This code implements 2 BTS 79640 45A motor drivers to drive a remote
   controlled four-wheeled car.
   The car drives forward, backward, and steers left and right using all 4
@@ -74,15 +79,15 @@
 // used to control the wheels on the LEFT side of the remote controlled car
 #define LEFT_ENL   7
 #define LEFT_ENR   8
-#define LEFT_LPWM  10  // pin 10 is a digital PWM pin on the Arduino Nano
-#define LEFT_RPWM  9
+#define LEFT_LPWM  6  // pin 10 is a digital PWM pin on the Arduino Nano
+#define LEFT_RPWM  5
 
 // Arduino pin numbers to be connected to the named pins of the motor driver
 // used to control the wheels on the RIGHT side of the remote controlled car
-#define RIGHT_ENL  5
-#define RIGHT_ENR  4
-#define RIGHT_LPWM 3
-#define RIGHT_RPWM 6
+#define RIGHT_ENL  2
+#define RIGHT_ENR  3
+#define RIGHT_LPWM 11
+#define RIGHT_RPWM 10
 
 
 // declare a class handle for the IBusBM class imported from the IBusBM library
