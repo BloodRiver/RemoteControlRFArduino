@@ -2,6 +2,8 @@
 ## By: Sajeed Ahmed Galib Arnob
 ### Author of Original Code: Sheikh Saif Simran
 
+**(Proper documentation pending)**
+
 This code implements 2 BTS 79640 45A motor drivers to drive a remote
   controlled four-wheeled car.
   The car drives forward, backward, and steers left and right using all 4
